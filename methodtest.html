@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <form>
+      <input type="number" name="id" id="record" placeholder="Record ID" />
+      <input type="text" name="article_name" id="article_name" placeholder="Article Name" />
+      <textarea
+        name="article_body"
+        id="article_body"
+        placeholder="Article Body"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <input type="date" name="date" id="date" hidden value="" />
+      <output id="response"></output>
+    </form>
+    <button id="postBtn">Post</button>
+    <button id="getBtn">Get</button>
+    <button id="putBtn">Put</button>
+    <button id="deleteBtn">Delete</button>
+  </body>
+</html>
